@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/redcat/Bureau/vim-classes'
+let g:netrw_dirhist_2='/home/redcat'
+let g:netrw_dirhist_3='/home/redcat/Bureau'
+let g:netrw_dirhist_4='/home/redcat/Bureau/vim-classes'
+let g:netrw_dirhist_5='/home/redcat'
+let g:netrw_dirhist_6='/home/redcat/netbeans-8.0'
+let g:netrw_dirhist_7='/home/redcat/netbeans-8.0/ide'
