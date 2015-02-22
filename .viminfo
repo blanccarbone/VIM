@@ -229,18 +229,19 @@ $
 	 
 
 # Marques dans le fichier :
-'0  4  7  ~/.gitignore
-'1  1  0  ~/.vimrc
-'2  1  0  ~/netbeans-8.0/ide/VERSION.txt
-'3  287  0  ~/.vimrc
-'4  284  0  ~/.vimrc
-'5  434  0  ~/.vimrc
-'6  443  0  ~/.vimrc
-'7  429  0  ~/.vimrc
-'8  446  36  ~/.vimrc
-'9  445  1  ~/.vimrc
+'0  2  7  ~/.gitignore
+'1  4  7  ~/.gitignore
+'2  1  0  ~/.vimrc
+'3  1  0  ~/netbeans-8.0/ide/VERSION.txt
+'4  287  0  ~/.vimrc
+'5  284  0  ~/.vimrc
+'6  434  0  ~/.vimrc
+'7  443  0  ~/.vimrc
+'8  429  0  ~/.vimrc
+'9  446  36  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
+-'  2  7  ~/.gitignore
 -'  4  7  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  1  0  ~/.vimrc
@@ -338,20 +339,18 @@ $
 -'  35  22  ~/Bureau/vim-classes/beginner.md
 -'  12  0  ~/Bureau/vim-classes/README.md
 -'  11  33  ~/Bureau/vim-classes/beginner.md
--'  30  36  ~/Bureau/vim-classes/beginner.md
--'  29  35  ~/Bureau/vim-classes/beginner.md
--'  1  0  ~/.vimrc
 
 # Liste des tampons :
-%~/.gitignore	4	7
+%~/.gitignore	2	7
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
 
 > ~/.gitignore
-	"	4	7
-	^	4	8
-	.	5	0
+	"	2	7
+	^	2	8
+	.	2	7
 	+	5	0
+	+	2	7
 
 > ~/.vimrc
 	"	1	0
