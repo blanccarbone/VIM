@@ -15,8 +15,8 @@ $
 
 # Historique ligne de commande (chronologie décroissante) :
 :wq
-:Explore
 :q
+:Explore
 :set nonumber
 :nonumber
 :number
@@ -85,75 +85,27 @@ $
 # Historique ligne de saisie (chronologie décroissante) :
 
 # Registres :
-""0	CHAR	0
+"0	CHAR	0
 	 
-"1	LINE	0
+""1	LINE	0
+	!/.vim/*
+	!/.viminfo
+"2	LINE	0
 	set foldcolumn=3
 	hi FoldColumn guifg=black guibg=black
-"2	LINE	0
-	seuw=6
 "3	LINE	0
-	set nuw=6
+	seuw=6
 "4	LINE	0
-	set numwidth=3
+	set nuw=6
 "5	LINE	0
-	
+	set numwidth=3
 "6	LINE	0
+	
+"7	LINE	0
 	" This turns on relative numbering
 	set relativenumber
-"7	LINE	0
-	execute pathogen#infect()
 "8	LINE	0
-	
-	
-			" Returns
-			" true
-			" if
-			" paste
-			" mode
-			" is
-			" enabled
-			" function!
-			" HasPaste()
-			"     if
-			"     &paste
-			"             return
-			"             'PASTE
-			"             MODE
-			"             '
-			"                 en
-			"                     return
-			"                     ''
-			"                     endfunction
-			"
-			"                     "
-			"                     Don't
-			"                     close
-			"                     window,
-			"                     when
-			"                     deleting
-			"                     a
-			"                     buffer
-			"                     command!
-			"                     Bclose
-			"                     call
-			"                     <SID>BufcloseCloseIt()
-			"                     function!
-			"                     <SID>BufcloseCloseIt()
-			"                        let
-			"                        l:currentBufNum
-			"                        =
-			"                        bufnr("%")
-			"                           let
-			"                           l:alternateBufNum
-			"                           =
-			"                           bufnr("#")
-			"
-			"                              if
-			"                              buflisted(l:alternateBufNum)
-			"                                   buffer
-			"                                   #
-			"                                      else
+	execute pathogen#infect()
 "9	LINE	0
 	
 	
@@ -229,20 +181,24 @@ $
 	 
 
 # Marques dans le fichier :
-'0  2  7  ~/.gitignore
-'1  4  7  ~/.gitignore
-'2  1  0  ~/.vimrc
-'3  1  0  ~/netbeans-8.0/ide/VERSION.txt
-'4  287  0  ~/.vimrc
-'5  284  0  ~/.vimrc
-'6  434  0  ~/.vimrc
-'7  443  0  ~/.vimrc
-'8  429  0  ~/.vimrc
-'9  446  36  ~/.vimrc
+'0  98  0  ~/.viminfo
+'1  2  0  ~/.gitignore
+'2  1  0  ~/.vim/bundle/nerdtree/.gitignore
+'3  1  0  ~/.vim/.giti
+'4  1  0  ~/.vim/bundle/vim-airline/.gitignore
+'5  2  7  ~/.gitignore
+'6  1  0  ~/.vimrc
+'7  1  0  ~/netbeans-8.0/ide/VERSION.txt
+'8  287  0  ~/.vimrc
+'9  284  0  ~/.vimrc
 
 # Liste de sauts (le plus récent en premier) :
--'  2  7  ~/.gitignore
--'  4  7  ~/.gitignore
+-'  98  0  ~/.viminfo
+-'  1  0  ~/.viminfo
+-'  2  0  ~/.gitignore
+-'  1  0  ~/.vim/bundle/nerdtree/.gitignore
+-'  1  0  ~/.vim/.giti
+-'  1  0  ~/.vim/bundle/vim-airline/.gitignore
 -'  1  0  ~/.gitignore
 -'  1  0  ~/.vimrc
 -'  445  0  ~/.vimrc
@@ -336,21 +292,30 @@ $
 -'  1  0  ~/
 -'  35  2  ~/Bureau/vim-classes/expert-2.md
 -'  83  0  ~/Bureau/vim-classes/beginner.md
--'  35  22  ~/Bureau/vim-classes/beginner.md
--'  12  0  ~/Bureau/vim-classes/README.md
--'  11  33  ~/Bureau/vim-classes/beginner.md
+-'  2  0  ~/.gitignore
 
 # Liste des tampons :
-%~/.gitignore	2	7
+%~/.viminfo	98	0
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
 
+> ~/.viminfo
+	"	98	0
+
 > ~/.gitignore
-	"	2	7
-	^	2	8
-	.	2	7
-	+	5	0
-	+	2	7
+	"	2	0
+	.	2	0
+	+	3	0
+	+	2	0
+
+> ~/.vim/bundle/nerdtree/.gitignore
+	"	1	0
+
+> ~/.vim/.giti
+	"	1	0
+
+> ~/.vim/bundle/vim-airline/.gitignore
+	"	1	0
 
 > ~/.vimrc
 	"	1	0
