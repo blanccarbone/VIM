@@ -451,7 +451,7 @@ let g:user_emmet_leader_key = '<c-c>'
 " =================================== TEST =================================
 highlight LineNr ctermfg=darkgrey
 hi CursorLineNr ctermfg=grey
-set t_Co=256
+"set t_Co=256
 set autoindent
 set ruler
 set scrolloff=1000
