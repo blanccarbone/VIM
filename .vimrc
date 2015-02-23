@@ -154,7 +154,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme desert
+    colorscheme molokai
 catch
 endtry
 
@@ -438,7 +438,7 @@ function! <SID>BufcloseCloseIt()
 endfunction
 
 " ==================================== TEST =================================
-
+set t_Co=256
 set autoindent
 set ruler
 set scrolloff=1000
