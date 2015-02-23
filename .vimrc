@@ -155,7 +155,7 @@ set foldcolumn=1
 syntax enable 
 
 try
-    colorscheme molokai
+    colorscheme monokai
 catch
 endtry
 
@@ -457,5 +457,5 @@ set ruler
 set scrolloff=1000
 set cursorline
 highlight Cursorline guibg=Grey40
-
+colorscheme monokai
 
