@@ -36,6 +36,7 @@
 "    -> Spell checking
 "    -> Misc
 "    -> Helper functions
+"    -> Plugins
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -372,7 +373,7 @@ map <leader>q :e ~/buffer<cr>
 map <leader>x :e ~/buffer.md<cr>
 
 " Toggle paste mode on and off
-map <leader>pp :setlocal paste!<cr>
+"map <leader>pp :setlocal paste!<cr>
 
 
 
@@ -437,9 +438,24 @@ function! <SID>BufcloseCloseIt()
    endif
 endfunction
 
-" ==================================== TEST =================================
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Plugins
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Emmet configuration
+
+"enable all function in all mode.
+let g:user_emmet_mode='a'
+"let user_emmet_expandabbr_key = '<c-y>'
+let g:user_emmet_leader_key = '<c-c>'
+" =================================== TEST =================================
+highlight LineNr ctermfg=darkgrey
+hi CursorLineNr ctermfg=grey
 set t_Co=256
 set autoindent
 set ruler
 set scrolloff=1000
 set cursorline
+highlight Cursorline guibg=Grey40
+
+
